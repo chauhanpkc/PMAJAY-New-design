@@ -152,3 +152,89 @@ a{
   .features .tab-pane p:last-child {
 	margin-bottom: 0;
   }
+
+  /* service */
+  .services .icon-box {
+	padding: 30px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 10px;
+	background: #fff;
+	box-shadow: 0 2px 29px 0 rgba(68, 88, 144, 0.12);
+	transition: all 0.4s ease-in-out;
+	width: 100%;
+	height: 100%;
+  }
+  
+  .services .icon-box:hover {
+	transform: translateY(-10px);
+	box-shadow: 0 2px 35px 0 rgba(68, 88, 144, 0.2);
+  }
+  
+  .services .icon {
+	position: absolute;
+	left: -20px;
+	top: calc(50% - 30px);
+  }
+  
+  .services .icon i {
+	font-size: 64px;
+	line-height: 1;
+	transition: 0.5s;
+  }
+  
+  .services .title {
+	margin-left: 40px;
+	font-weight: 700;
+	margin-bottom: 15px;
+	font-size: 18px;
+  }
+  
+  .services .title a {
+	color: #2a2c39;
+	transition: ease-in-out 0.3s;
+  }
+  
+  .services .title a:hover {
+	color: #5c8fcc;
+  }
+  
+  .services .description {
+	font-size: 14px;
+	margin-left: 40px;
+	line-height: 24px;
+	margin-bottom: 0;
+  }
+
+ /* owl */
+
+ .owl-nav{
+	position: absolute;
+	top: 33%;
+	width: 100%;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
+	position: absolute;
+	right: 0;
+	background:#fff center center no-repeat url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+	background-size:17px ;
+	padding: 15px !important;
+	font-size: 0px;
+	transform: rotate(-90deg);
+	border-radius:50% ;
+	box-shadow: 0 0 5px 3px rgb(0 0 0 / 15%);
+}
+.owl-carousel .owl-nav button.owl-prev{
+	left: 0;
+	right: auto;
+	transform: rotate(90deg);
+}
+.owl-carousel .owl-item img{
+	width: auto;
+}
+.owl-carousel .owl-item img{
+    height: 130px;
+}
+.owl-carousel.owl-drag .owl-item{
+    width: unset !important;
+}
