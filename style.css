@@ -20,3 +20,135 @@ a{
 .footer-link li a{
 	border-right:1px dotted #fff;
 }
+
+.section-title h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #5c8fcc;
+    margin: 4px 10px;
+}
+.section-title p {
+    margin: 0;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #2a2c39;
+}
+[data-aos^=fade][data-aos^=fade].aos-animate {
+    opacity: 1;
+    transform: translateZ(0);
+}
+.about .content ul {
+    list-style: none;
+    padding: 0;
+}
+.about .content ul i {
+    font-size: 20px;
+	top: 2px;
+    color: #5c8fcc;
+    line-height: 2;
+	
+}
+.about .content .btn-learn-more {
+	font-family: "Raleway", sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	letter-spacing: 1px;
+	display: inline-block;
+	padding: 12px 32px;
+	border-radius: 5px;
+	transition: 0.3s;
+	line-height: 1;
+	color: #5c8fcc;
+	animation-delay: 0.8s;
+	margin-top: 6px;
+	border: 2px solid #5c8fcc;
+  }
+
+  /* Feature */
+
+  .features .nav-tabs {
+	border: 0;
+  }
+  
+  .features .nav-link {
+	border: 1px solid #d4d6df;
+	padding: 15px;
+	transition: 0.3s;
+	color: #2a2c39;
+	border-radius: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .features .nav-link i {
+	padding-right: 15px;
+	font-size: 48px;
+  }
+  
+  .features .nav-link h4 {
+	font-size: 18px;
+	font-weight: 600;
+	margin: 0;
+  }
+  
+  .features .nav-link:hover {
+	color: #5c8fcc;
+  }
+  
+  .features .nav-link.active {
+	background: #5c8fcc;
+	color: #fff;
+	border-color: #5c8fcc;
+  }
+  
+  @media (max-width: 768px) {
+	.features .nav-link i {
+	  padding: 0;
+	  line-height: 1;
+	  font-size: 36px;
+	}
+  }
+  
+  @media (max-width: 575px) {
+	.features .nav-link {
+	  padding: 15px;
+	}
+  
+	.features .nav-link i {
+	  font-size: 24px;
+	}
+  }
+  
+  .features .tab-content {
+	margin-top: 30px;
+  }
+  
+  .features .tab-pane h3 {
+	font-weight: 600;
+	font-size: 26px;
+  }
+  
+  .features .tab-pane ul {
+	list-style: none;
+	padding: 0;
+  }
+  
+  .features .tab-pane ul li {
+	padding-bottom: 10px;
+  }
+  
+  .features .tab-pane ul i {
+	font-size: 20px;
+	padding-right: 4px;
+	color: #5c8fcc;
+  }
+  
+  .features .tab-pane p:last-child {
+	margin-bottom: 0;
+  }
