@@ -4,8 +4,13 @@
 .main-color{
     background-color: #5c8fcc;
 }
+
 a{
     text-decoration: none;
+}
+.font-sizer {
+    width: 26px;
+    height: 33px;
 }
 .skip-icon{
 	width: 38px;
