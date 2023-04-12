@@ -108,16 +108,16 @@ chart.render();
           }
         
         },
-        // title: {
-        //   text: 'Hostels',
-        //   position: 'top',
-        //   floating: true,
-        //   offsetY: 330,
-        //   align: 'center',
-        //   style: {
-        //     color: '#444'
-        //   }
-        // }
+        title: {
+          text: 'States',
+          position: 'top',
+          floating: true,
+          offsetY: 330,
+          align: 'center',
+          style: {
+            color: '#444'
+          }
+        }
         };
 
         var chart = new ApexCharts(document.querySelector("#chart1"), options);
