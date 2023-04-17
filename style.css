@@ -47,7 +47,7 @@ a{
     opacity: 1;
     transform: translateZ(0);
 }
-.about .content ul {
+/* .about .content ul {
     list-style: none;
     padding: 0;
 }
@@ -72,6 +72,109 @@ a{
 	animation-delay: 0.8s;
 	margin-top: 6px;
 	border: 2px solid #5c8fcc;
+  } */
+/* Service */
+/* Service */
+
+.services1 .service1-box {
+	box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+	height: 100%;
+	padding: 60px 30px;
+	text-align: center;
+	transition: 0.3s;
+	border-radius: 5px;
+  }
+  
+  .services1 .service1-box .icon {
+	font-size: 36px;
+	padding: 40px 20px;
+	border-radius: 4px;
+	position: inherit;
+	margin-bottom: 25px;
+	display: inline-block;
+	line-height: 0;
+	transition: 0.3s;
+  }
+  
+  .services1 .service1-box h3 {
+	color: #444444;
+	font-weight: 700;
+  }
+  
+  .services1 .service1-box .read-more {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 600;
+	font-size: 16px;
+	padding: 8px 20px;
+  }
+  
+  .services1 .service1-box .read-more i {
+	line-height: 0;
+	margin-left: 5px;
+	font-size: 18px;
+  }
+  
+  .services1 .service1-box.blue {
+	border-bottom: 3px solid #2db6fa;
+  }
+  
+  .services1 .service1-box.blue .icon {
+	color: #2db6fa;
+	background: #dbf3fe;
+  }
+  
+  .services1 .service1-box.blue .read-more {
+	color: #2db6fa;
+  }
+  
+  .services1 .service1-box.blue:hover {
+	background: #2db6fa;
+  }
+  
+  .services1 .service1-box.orange {
+	border-bottom: 3px solid #f68c09;
+  }
+  
+  .services1 .service1-box.orange .icon {
+	color: #f68c09;
+	background: #fde3c4;
+  }
+  
+  .services1 .service1-box.orange .read-more {
+	color: #f68c09;
+  }
+  
+  .services1 .service1-box.orange:hover {
+	background: #f68c09;
+  }
+  
+  .services1 .service1-box.green {
+	border-bottom: 3px solid #08da4e;
+  }
+  
+  .services1 .service1-box.green .icon {
+	color: #08da4e;
+	background: #cffddf;
+  }
+  
+  .services1 .service1-box.green .read-more {
+	color: #08da4e;
+  }
+  
+  .services1 .service1-box.green:hover {
+	background: #08da4e;
+  }
+
+  .services1 .service1-box:hover h3,
+  .services1 .service1-box:hover p,
+  .services1 .service1-box:hover .read-more {
+	color: #fff;
+  }
+  
+  .services1 .service1-box:hover .icon {
+	background: #fff;
   }
 
   /* Feature */
