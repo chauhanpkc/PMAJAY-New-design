@@ -281,12 +281,12 @@ a{
   
   .services .icon {
 	position: absolute;
-	left: -20px;
-	top: calc(50% - 30px);
+	left: 12px;
+	top: calc(61% - 30px);
   }
   
   .services .icon i {
-	font-size: 64px;
+	font-size: 35px;
 	line-height: 1;
 	transition: 0.5s;
   }
