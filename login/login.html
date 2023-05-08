@@ -175,42 +175,77 @@
         </div>
      </nav>
 
-     <div class="container-fluid">
-      <div class="row main-content bg-success text-center">
-        <div class="col-md-4 text-center company__info">
-          <span class="company__logo"><h2><span class="fa fa-android"></span></h2></span>
-         <img src="../images/logo.png" alt="">
-        </div>
-        <div class="col-md-8 col-xs-12 col-sm-12 login_form ">
-          <div class="container-fluid">
-            <div class="row">
-              <h2>Log In</h2>
+     <section id="formHolder">
+
+      <div class="row">
+
+         <!-- Brand Box -->
+         <div class="col-sm-6 brand">
+
+            <div class="heading">
+               <h5 class="fw-bold text-dark">Only following users should login:</h5>
+               <ul class="text-start fw-normal login-user-list mb-0">
+                <li class="position-relative mt-1">District checker/maker user of Grants-in-Aid</li> 
+                <li class="position-relative mt-1">State checker/maker user of Grants-in-Aid</li>
+                <li class="position-relative mt-1">District checker/maker user of Hostel</li>
+                <li class="position-relative mt-1">District user of Hostel</li> 
+                <li class="position-relative mt-1">State checker/maker user of Hostel</li> 
+                <li class="position-relative mt-1">State Institute</li>
+                <li class="position-relative mt-1">State university</li>
+                <li class="position-relative mt-1">Central Institute</li>
+                <li class="position-relative mt-1">Central University</li>
+             </ul>
             </div>
-            <div class="row">
-              <form control="" class="form-group">
-                <div class="row">
-                  <input type="text" name="username" id="username" class="form__input" placeholder="UserID">
-                </div>
-                <div class="row">
-                  <!-- <span class="fa fa-lock"></span> -->
-                  <input type="password" name="password" id="password" class="form__input" placeholder="Password">
-                </div>
-                <!-- <div class="row">
-                  <input type="checkbox" name="remember_me" id="remember_me" class="">
-                  <label for="remember_me">Remember Me!</label>
-                </div> -->
-                <div class="">
-                  <input type="submit" value="Login" class="btn1">
-                </div>
-              </form>
-            </div>
-            <!-- <div class="row">
-              <p>Don't have an account? <a href="#">Register Here</a></p>
-            </div> -->
-          </div>
-        </div>
+         </div>
+
+
+         <!-- Form Box -->
+         <div class="col-sm-6 form">
+
+            <!-- Login Form -->
+            <div class=" form-peice ">
+               <form class="" action="#" method="post">
+                  <div class="form-group">
+                     <label for="loginemail">User ID</label>
+                     <input type="text" name="" id="" class="input1" required>
+                  </div>
+
+                  <div class="form-group">
+                     <label for="">Password</label>
+                     <input type="password" name="" id="" class="input1" required>
+                  </div>
+
+                  <div class="CTA">
+                     <input type="submit" value="Login">
+                     <a href="#" class="switch">Forgot Password</a>
+                  </div>
+               </form>
+            </div><!-- End Login Form -->
+
+
+            <!-- Signup Form -->
+            <div class=" form-peice switched">
+               <form class="" action="#" method="post">
+
+                  <div class="form-group">
+                     <label for="name">User ID</label>
+                     <input type="text" name="userID" id="name" class="input1">
+                  </div>
+
+                  <div class="form-group mb-3">
+                    <label for="">OTP receive on</label>
+                  </div>
+
+                  <div class="CTA mt-5">
+                     <input type="submit" value="Submit" id="submit">
+                     <a href="#" class="switch">Back to Login</a>
+                  </div>
+               </form>
+            </div><!-- End Signup Form -->
+         </div>
       </div>
-    </div>
+
+   </section>
 
      <footer class="mt-2">
         <div class="main-color">
@@ -252,5 +287,6 @@
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="../assets/js/customize.js"></script>
+    <script src="../login/js/form.js"></script>
 </body>
 </html>
