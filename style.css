@@ -117,20 +117,20 @@ a{
   }
   
   .services1 .service1-box.blue {
-	border-bottom: 3px solid #2db6fa;
+	border-bottom: 3px solid #2f89c8;
   }
   
   .services1 .service1-box.blue .icon {
-	color: #2db6fa;
+	color: #2f89c8;
 	background: #dbf3fe;
   }
   
   .services1 .service1-box.blue .read-more {
-	color: #2db6fa;
+	color: #2f89c8;
   }
   
   .services1 .service1-box.blue:hover {
-	background: #2db6fa;
+	background: #2f89c8;
   }
   
   .services1 .service1-box.orange {
