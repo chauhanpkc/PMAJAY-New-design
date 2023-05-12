@@ -28,7 +28,7 @@ body {
       position: absolute;
       top: 0;
       left: 0;
-      background: rgba(36, 131, 197, 0.95);
+      background: rgb(36, 131, 197);
       z-index: -1; }
     .brand .heading {
       position: absolute;
