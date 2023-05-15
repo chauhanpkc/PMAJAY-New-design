@@ -223,7 +223,6 @@ body {
       /* Dashboard */
       body {
         min-height: 100vh;
-        background-color: #fff;
       }
       
       .side-navbar {
@@ -234,7 +233,15 @@ body {
         background-color: #1680b3;
         transition: 0.5s;
       }
-      
+      .dashboard{
+        background-color: #1680b3;
+      }
+      .dropdown ul li :hover{
+        color: #100901!important;
+      }
+      .cursor{
+        cursor: url('/images/cursor.cur'), auto;
+      }
       .nav-link:active,
       .nav-link:focus,
       .nav-link:hover {
@@ -264,5 +271,11 @@ body {
         border-radius: 2rem;
         padding: 2px 20px;
       }
-      
+      .card {
+        line-height: 1.25rem;
+        color: #000;
+    }
+      .card-raised{
+        border:none;
+      }
   
